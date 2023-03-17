@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - 101-quote.c
- * description - Write a C program that prints exactly and that piece of art is useful\" 
- * - Dora kopar, 2015-10-19, followed by a new line, to the stardard error.
- * Return: Always (0) (Success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
