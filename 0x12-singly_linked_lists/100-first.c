@@ -8,7 +8,7 @@ void beat(void) __attribute__ ((constructor));
  * return: no return
  */
 
-void beat (void)
+void beat(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
