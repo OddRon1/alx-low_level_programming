@@ -9,17 +9,16 @@
  *
  * Return: This is number of nodes returned in the list_t list.
  */
-
 size_t print_listint(const listint_t *h)
 {
-	size_t nodes = 0;
+	size_t node = 0;
 
 	while (h)
 	{
+		node++;
 		printf("%d\n", h->n);
-		nodes++;
 		h = h->next;
 	}
 
-	return (nodes);
+	return (node);
 }
