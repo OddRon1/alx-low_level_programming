@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include "main.h"
 
 /**
  * print_binary - This function prints the binary equivalent of a dec number
@@ -11,7 +10,7 @@ void print_binary(unsigned long int n)
 	int k, count = 0;
 	unsigned long int current;
 
-	for (k = 36; k >= 0; k--)
+	for (k = 63; k >= 0; k--)
 	{
 		current = n >> k;
 
