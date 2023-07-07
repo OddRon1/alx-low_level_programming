@@ -21,3 +21,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 		if (current & 1)
 			count++;
 	}
+
+	return(count);
+}
